@@ -9,8 +9,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var myTableView: UITableView!
-    var animals = ["Cat", "Horse", "Pig", "Bird", "Whale"]
-    var subTitle = ["고양이", "말", "돼지", "새", "고래"]
+    var animals = ["Cat", "Horse", "Pig", "Bird", "Whale", "Dog"]
+    var subTitle = ["고양이", "말", "돼지", "새", "고래", "강아지"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,4 +56,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
 }
+
+
+
 
